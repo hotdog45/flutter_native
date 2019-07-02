@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - IQKeyboardManager (5.0.6)
+
+DEPENDENCIES:
+  - Flutter (from `/Users/lishunfeng/Desktop/flutter_ios/Flutter/flutter_module/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `/Users/lishunfeng/Desktop/flutter_ios/Flutter/flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - IQKeyboardManager (= 5.0.6)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManager
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "/Users/lishunfeng/Desktop/flutter_ios/Flutter/flutter_module/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "/Users/lishunfeng/Desktop/flutter_ios/Flutter/flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  FlutterPluginRegistrant: 4c0b13ad4054e1b568c31c51cc95aee917e73920
+  IQKeyboardManager: 077b7f691dfa9d69db9cff66f2bed68ebfc02d9b
+
+PODFILE CHECKSUM: c56ad864799299014ca58e3f86eae212c25d7659
+
+COCOAPODS: 1.6.0.beta.1

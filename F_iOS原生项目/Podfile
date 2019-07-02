@@ -1,0 +1,17 @@
+platform :ios, '10.0'
+
+inhibit_all_warnings!
+target 'FiOS' do
+use_frameworks!
+
+
+pod 'IQKeyboardManager', '= 5.0.6'
+
+
+##  ==============Flutter ==============
+## Flutter 模块的路径 pod update --verbose --no-repo-update
+##绝对路径
+flutter_application_path = '/Users/lishunfeng/Desktop/flutter_ios/Flutter_module'
+eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')),    binding)
+##  ==============Flutter ==============
+end
