@@ -1,0 +1,19 @@
+dependencies: \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/iOSDemo/AppDelegate.m \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/iOSDemo/AppDelegate.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Modules/module.modulemap \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterTexture.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterPlugin.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterMacros.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterEngine.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterDartProject.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterViewController.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterPlatformViews.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterCodecs.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterChannels.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterCallbackCache.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/FlutterAppDelegate.h \
+  /Users/lishunfeng/Desktop/flutter_ios/iOS/iOSDemo/Flutter/engine/Flutter.framework/Headers/Flutter.h

@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36576F1C22C899360088483E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36576F1B22C899360088483E /* AppDelegate.m */; };
+		36576F1F22C899360088483E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36576F1E22C899360088483E /* ViewController.m */; };
+		36576F2222C899360088483E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36576F2022C899360088483E /* Main.storyboard */; };
+		36576F2422C899370088483E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36576F2322C899370088483E /* Assets.xcassets */; };
+		36576F2722C899370088483E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36576F2522C899370088483E /* LaunchScreen.storyboard */; };
+		36576F2A22C899370088483E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36576F2922C899370088483E /* main.m */; };
+		36576F3422C899370088483E /* iOSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36576F3322C899370088483E /* iOSDemoTests.m */; };
+		36576F3F22C899370088483E /* iOSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36576F3E22C899370088483E /* iOSDemoUITests.m */; };
+		36576F5F22C89E920088483E /* podhelper.rb in Resources */ = {isa = PBXBuildFile; fileRef = 36576F5222C89E920088483E /* podhelper.rb */; };
+		36576F6022C89E920088483E /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 36576F5622C89E920088483E /* GeneratedPluginRegistrant.m */; };
+		36576F6122C89E920088483E /* FlutterPluginRegistrant.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 36576F5722C89E920088483E /* FlutterPluginRegistrant.podspec */; };
+		36576F6222C89E920088483E /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36576F5822C89E920088483E /* App.framework */; };
+		36576F6322C89E920088483E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 36576F5922C89E920088483E /* README.md */; };
+		36576F6422C89E920088483E /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36576F5A22C89E920088483E /* AppFrameworkInfo.plist */; };
+		36576F6522C89E920088483E /* Generated.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 36576F5B22C89E920088483E /* Generated.xcconfig */; };
+		36576F6622C89E920088483E /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36576F5D22C89E920088483E /* Flutter.framework */; };
+		36576F6722C89E920088483E /* Flutter.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 36576F5E22C89E920088483E /* Flutter.podspec */; };
+		36576F6822C89F2F0088483E /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36576F5822C89E920088483E /* App.framework */; };
+		36576F6922C89F2F0088483E /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36576F5822C89E920088483E /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36576F6B22C89F330088483E /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36576F5D22C89E920088483E /* Flutter.framework */; };
+		36576F6C22C89F330088483E /* Flutter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36576F5D22C89E920088483E /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36576F9822C89FCC0088483E /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = 36576F9722C89FCC0088483E /* flutter_assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36576F3022C899370088483E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36576F0F22C899360088483E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36576F1622C899360088483E;
+			remoteInfo = iOSDemo;
+		};
+		36576F3B22C899370088483E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36576F0F22C899360088483E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36576F1622C899360088483E;
+			remoteInfo = iOSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36576F6A22C89F300088483E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36576F6922C89F2F0088483E /* App.framework in Embed Frameworks */,
+				36576F6C22C89F330088483E /* Flutter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		36576F1722C899360088483E /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36576F1A22C899360088483E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36576F1B22C899360088483E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36576F1D22C899360088483E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36576F1E22C899360088483E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36576F2122C899360088483E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36576F2322C899370088483E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36576F2622C899370088483E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36576F2822C899370088483E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36576F2922C899370088483E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36576F2F22C899370088483E /* iOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36576F3322C899370088483E /* iOSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDemoTests.m; sourceTree = "<group>"; };
+		36576F3522C899370088483E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36576F3A22C899370088483E /* iOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36576F3E22C899370088483E /* iOSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDemoUITests.m; sourceTree = "<group>"; };
+		36576F4022C899370088483E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36576F4C22C89C050088483E /* FlutterConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = FlutterConfig.xcconfig; path = ../../Flutter/flutter_module/FlutterConfig.xcconfig; sourceTree = "<group>"; };
+		36576F4F22C89C980088483E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		36576F5222C89E920088483E /* podhelper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = podhelper.rb; sourceTree = "<group>"; };
+		36576F5522C89E920088483E /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		36576F5622C89E920088483E /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		36576F5722C89E920088483E /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; };
+		36576F5822C89E920088483E /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		36576F5922C89E920088483E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		36576F5A22C89E920088483E /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		36576F5B22C89E920088483E /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Generated.xcconfig; sourceTree = "<group>"; };
+		36576F5D22C89E920088483E /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		36576F5E22C89E920088483E /* Flutter.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; };
+		36576F9722C89FCC0088483E /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = flutter_assets; path = Flutter/App.framework/flutter_assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36576F1422C899360088483E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36576F6222C89E920088483E /* App.framework in Frameworks */,
+				36576F6822C89F2F0088483E /* App.framework in Frameworks */,
+				36576F6622C89E920088483E /* Flutter.framework in Frameworks */,
+				36576F6B22C89F330088483E /* Flutter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36576F2C22C899370088483E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36576F3722C899370088483E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36576F0E22C899360088483E = {
+			isa = PBXGroup;
+			children = (
+				36576F4C22C89C050088483E /* FlutterConfig.xcconfig */,
+				36576F9722C89FCC0088483E /* flutter_assets */,
+				36576F5122C89E920088483E /* Flutter */,
+				36576F1922C899360088483E /* iOSDemo */,
+				36576F3222C899370088483E /* iOSDemoTests */,
+				36576F3D22C899370088483E /* iOSDemoUITests */,
+				36576F1822C899360088483E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36576F1822C899360088483E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36576F1722C899360088483E /* iOSDemo.app */,
+				36576F2F22C899370088483E /* iOSDemoTests.xctest */,
+				36576F3A22C899370088483E /* iOSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36576F1922C899360088483E /* iOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				36576F1A22C899360088483E /* AppDelegate.h */,
+				36576F1B22C899360088483E /* AppDelegate.m */,
+				36576F1D22C899360088483E /* ViewController.h */,
+				36576F1E22C899360088483E /* ViewController.m */,
+				36576F2022C899360088483E /* Main.storyboard */,
+				36576F2322C899370088483E /* Assets.xcassets */,
+				36576F2522C899370088483E /* LaunchScreen.storyboard */,
+				36576F2822C899370088483E /* Info.plist */,
+				36576F2922C899370088483E /* main.m */,
+				36576F4F22C89C980088483E /* Debug.xcconfig */,
+			);
+			path = iOSDemo;
+			sourceTree = "<group>";
+		};
+		36576F3222C899370088483E /* iOSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				36576F3322C899370088483E /* iOSDemoTests.m */,
+				36576F3522C899370088483E /* Info.plist */,
+			);
+			path = iOSDemoTests;
+			sourceTree = "<group>";
+		};
+		36576F3D22C899370088483E /* iOSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36576F3E22C899370088483E /* iOSDemoUITests.m */,
+				36576F4022C899370088483E /* Info.plist */,
+			);
+			path = iOSDemoUITests;
+			sourceTree = "<group>";
+		};
+		36576F5122C89E920088483E /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				36576F5222C89E920088483E /* podhelper.rb */,
+				36576F5322C89E920088483E /* FlutterPluginRegistrant */,
+				36576F5822C89E920088483E /* App.framework */,
+				36576F5922C89E920088483E /* README.md */,
+				36576F5A22C89E920088483E /* AppFrameworkInfo.plist */,
+				36576F5B22C89E920088483E /* Generated.xcconfig */,
+				36576F5C22C89E920088483E /* engine */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		36576F5322C89E920088483E /* FlutterPluginRegistrant */ = {
+			isa = PBXGroup;
+			children = (
+				36576F5422C89E920088483E /* Classes */,
+				36576F5722C89E920088483E /* FlutterPluginRegistrant.podspec */,
+			);
+			path = FlutterPluginRegistrant;
+			sourceTree = "<group>";
+		};
+		36576F5422C89E920088483E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				36576F5522C89E920088483E /* GeneratedPluginRegistrant.h */,
+				36576F5622C89E920088483E /* GeneratedPluginRegistrant.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		36576F5C22C89E920088483E /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				36576F5D22C89E920088483E /* Flutter.framework */,
+				36576F5E22C89E920088483E /* Flutter.podspec */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36576F1622C899360088483E /* iOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36576F4322C899370088483E /* Build configuration list for PBXNativeTarget "iOSDemo" */;
+			buildPhases = (
+				36576F1322C899360088483E /* Sources */,
+				36576F1422C899360088483E /* Frameworks */,
+				36576F1522C899360088483E /* Resources */,
+				36576F5022C89D450088483E /* ShellScript */,
+				36576F6A22C89F300088483E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDemo;
+			productName = iOSDemo;
+			productReference = 36576F1722C899360088483E /* iOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36576F2E22C899370088483E /* iOSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36576F4622C899370088483E /* Build configuration list for PBXNativeTarget "iOSDemoTests" */;
+			buildPhases = (
+				36576F2B22C899370088483E /* Sources */,
+				36576F2C22C899370088483E /* Frameworks */,
+				36576F2D22C899370088483E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36576F3122C899370088483E /* PBXTargetDependency */,
+			);
+			name = iOSDemoTests;
+			productName = iOSDemoTests;
+			productReference = 36576F2F22C899370088483E /* iOSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36576F3922C899370088483E /* iOSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36576F4922C899370088483E /* Build configuration list for PBXNativeTarget "iOSDemoUITests" */;
+			buildPhases = (
+				36576F3622C899370088483E /* Sources */,
+				36576F3722C899370088483E /* Frameworks */,
+				36576F3822C899370088483E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36576F3C22C899370088483E /* PBXTargetDependency */,
+			);
+			name = iOSDemoUITests;
+			productName = iOSDemoUITests;
+			productReference = 36576F3A22C899370088483E /* iOSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36576F0F22C899360088483E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "李顺风";
+				TargetAttributes = {
+					36576F1622C899360088483E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					36576F2E22C899370088483E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 36576F1622C899360088483E;
+					};
+					36576F3922C899370088483E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 36576F1622C899360088483E;
+					};
+				};
+			};
+			buildConfigurationList = 36576F1222C899360088483E /* Build configuration list for PBXProject "iOSDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36576F0E22C899360088483E;
+			productRefGroup = 36576F1822C899360088483E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36576F1622C899360088483E /* iOSDemo */,
+				36576F2E22C899370088483E /* iOSDemoTests */,
+				36576F3922C899370088483E /* iOSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36576F1522C899360088483E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36576F6522C89E920088483E /* Generated.xcconfig in Resources */,
+				36576F6322C89E920088483E /* README.md in Resources */,
+				36576F2722C899370088483E /* LaunchScreen.storyboard in Resources */,
+				36576F6722C89E920088483E /* Flutter.podspec in Resources */,
+				36576F5F22C89E920088483E /* podhelper.rb in Resources */,
+				36576F6422C89E920088483E /* AppFrameworkInfo.plist in Resources */,
+				36576F9822C89FCC0088483E /* flutter_assets in Resources */,
+				36576F2422C899370088483E /* Assets.xcassets in Resources */,
+				36576F2222C899360088483E /* Main.storyboard in Resources */,
+				36576F6122C89E920088483E /* FlutterPluginRegistrant.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36576F2D22C899370088483E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36576F3822C899370088483E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36576F5022C89D450088483E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh\" build\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36576F1322C899360088483E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36576F1F22C899360088483E /* ViewController.m in Sources */,
+				36576F2A22C899370088483E /* main.m in Sources */,
+				36576F1C22C899360088483E /* AppDelegate.m in Sources */,
+				36576F6022C89E920088483E /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36576F2B22C899370088483E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36576F3422C899370088483E /* iOSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36576F3622C899370088483E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36576F3F22C899370088483E /* iOSDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36576F3122C899370088483E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36576F1622C899360088483E /* iOSDemo */;
+			targetProxy = 36576F3022C899370088483E /* PBXContainerItemProxy */;
+		};
+		36576F3C22C899370088483E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36576F1622C899360088483E /* iOSDemo */;
+			targetProxy = 36576F3B22C899370088483E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36576F2022C899360088483E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36576F2122C899360088483E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36576F2522C899370088483E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36576F2622C899370088483E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36576F4122C899370088483E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36576F4F22C89C980088483E /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36576F4222C899370088483E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36576F4422C899370088483E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97KNN6XN2V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Flutter/engine",
+				);
+				INFOPLIST_FILE = iOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldck.iOSDemo222;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36576F4522C899370088483E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97KNN6XN2V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+					"$(PROJECT_DIR)/Flutter/engine",
+				);
+				INFOPLIST_FILE = iOSDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldck.iOSDemo222;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36576F4722C899370088483E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldck.iOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDemo.app/iOSDemo";
+			};
+			name = Debug;
+		};
+		36576F4822C899370088483E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldck.iOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDemo.app/iOSDemo";
+			};
+			name = Release;
+		};
+		36576F4A22C899370088483E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldck.iOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDemo;
+			};
+			name = Debug;
+		};
+		36576F4B22C899370088483E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oldck.iOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36576F1222C899360088483E /* Build configuration list for PBXProject "iOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36576F4122C899370088483E /* Debug */,
+				36576F4222C899370088483E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36576F4322C899370088483E /* Build configuration list for PBXNativeTarget "iOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36576F4422C899370088483E /* Debug */,
+				36576F4522C899370088483E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36576F4622C899370088483E /* Build configuration list for PBXNativeTarget "iOSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36576F4722C899370088483E /* Debug */,
+				36576F4822C899370088483E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36576F4922C899370088483E /* Build configuration list for PBXNativeTarget "iOSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36576F4A22C899370088483E /* Debug */,
+				36576F4B22C899370088483E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36576F0F22C899360088483E /* Project object */;
+}
